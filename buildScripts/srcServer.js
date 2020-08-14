@@ -17,6 +17,7 @@ app.listen(port, function(err){
   if (err){
     console.log(err);
   }else {
+    //open the application at pointed address x port
     open('http://localhost:' + port);//hard-coded in the address of the website
   }
 });
