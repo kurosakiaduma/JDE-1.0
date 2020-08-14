@@ -10,7 +10,7 @@ let app = express();
 
 //telling express which routes it should handle i.e. from '/' root
 app.get('/', function(req, res){
-  res.sendFile(path.join(__dirname, '../src.index.html'));//using path to join directory name as well as the path to the source directory where our index file is
+  res.sendFile(path.join(__dirname, '../src/index.html'));//using path to join directory name as well as the path to the source directory where our index file is
 });
 //telling express to listen to the port 3000
 app.listen(port, function(err){
