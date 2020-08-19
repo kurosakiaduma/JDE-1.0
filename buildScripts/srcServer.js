@@ -1,4 +1,4 @@
-//reference to path and open which will allow us to open our webpage on a browser
+//reference to path of the index file and open instance of express which will allow us to open our webpage on a browser
 let express = require('express');
 let path = require('path');
 let open = require('open');
